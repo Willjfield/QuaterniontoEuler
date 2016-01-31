@@ -1,0 +1,19 @@
+{
+  "name": "quateuler",
+  "version": "1.0.0",
+  "description": "quaterniontoeuler",
+  "main": "quatEuler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willjfield/QuaterniontoEuler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Willjfield/QuaterniontoEuler/issues"
+  },
+  "homepage": "https://github.com/Willjfield/QuaterniontoEuler#readme"
+}
