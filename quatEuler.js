@@ -61,10 +61,16 @@ fs.readFile('log_1.csv', 'utf8',function(err,data){
 	var gx = _data[i][6]
 	var gy = _data[i][7]
 	var gz = _data[i][8]
+
 	var ax = _data[i][0]
 	var ay = _data[i][1]
 	var az = _data[i][2]
-	console.log(toEuler(mIMU(gx,gy,gz,ax,ay,az)))
+
+	var mx = _data[i][3]
+	var my = _data[i][4]
+	var mz = _data[i][5]
+//	console.log(toEuler(mIMU(gx,gy,gz,ax,ay,az)))
+	console.log(toEuler(mAHRS(gx,gy,gz,ax,ay,az,mx,my,mz)))
 
 	}
 
